@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "fakeanarchiagui",
+  "version": "${version}",
+  "name": "Fake Anarchia GUI",
+  "description": "Lokalne, wizualne GUI z fikcyjnymi kopiami przedmiotow inspirowanymi Anarchia.gg.",
+  "authors": ["ChatGPT"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.fakeanarchia.client.FakeAnarchiaClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
